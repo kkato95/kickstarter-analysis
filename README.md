@@ -14,15 +14,15 @@ To begin our analysis of the category "theatre" and subcategory “plays”, we 
 We will be analyzing how the number of successful, failed, and canceled outcomes, located on the y-axis, are related to the month the donation campaign began, located on the x-axis, for the observations of the category “theater”. 
 The most successful donation campaigns for “theater” are at the end of Spring. By the end of the year the success wanes and the number of successful and failed outcomes match. As we can see in the graph, from March to April the number of successful outcomes is increasing quickly and maxes out at approximately 70% more successful campaigns than failed campaigns in May. Over the second half the year, success slowly drops equal with the failed outcome and to its lowest point all year in December. There are only a few canceled campaigns each month, if not 0, throughout the year.
 
-![Theater Outcomes_vs_Launch](C:\Users\KyleKato\OneDrive\UT Bootcamp\Challenges\Challenge 1\Resources)
-![Theater Outcomes Pivot](C:\Users\KyleKato\OneDrive\UT Bootcamp\Challenges\Challenge 1\Resources)
+![Theater Outcomes_vs_Launch](C:\Users\KyleKato\Documents\UT Bootcamp Reg)
+![Theater Outcomes Pivot](C:\Users\KyleKato\Documents\UT Bootcamp Reg)
 
 - Challenges
 One challenge encountered was formatting the “deadline” and “launch_at” column dates. In order to display a short date we had to convert this date to new units: =(((J526/60)/60)/24) +DATE(1970,1,1)
 The formula essentially adds the elapsed time in seconds, which is represented by the deadline value, to the date 01/01/1970. The formula divides the deadline value (seconds) by 60 second, then divides by 60 minutes, then divides by 24 hours to generate the number of days and adds the numbers of days 01/01/1970 to generate the short date.
 
-![Outcomes Based on Goal](C:\Users\KyleKato\OneDrive\UT Bootcamp\Challenges\Challenge 1\Resources)
-![Outcomes Table](C:\Users\KyleKato\OneDrive\UT Bootcamp\Challenges\Challenge 1\Resources)
+![Outcomes Based on Goal](C:\Users\KyleKato\Documents\UT Bootcamp Reg)
+![Outcomes Table](C:\Users\KyleKato\Documents\UT Bootcamp Reg)
 
 ### Outcomes Based on Goals
 We will be observing the percent successful, failed, and canceled outcomes and grouping them by their donation goal ranges located on the x-axis of the graph. Only observing the sub-category “plays.” We can see the 11 different intervals; We begin with the interval “less than 1,000”, then the intervals increase at increments of $5,000, until $50,000 is reached. The last interval is “greater than 50,000”. Using this graph below, we can visualize the percentage of outcomes as successful in blue and failed in green, as the donation goal amount is increasing on the x-axis.
