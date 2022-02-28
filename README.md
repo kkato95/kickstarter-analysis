@@ -8,11 +8,11 @@ Data Analysis
 
   ## Analysis and Challenges
   
-To begin our analysis of the subcategory “plays”, we created two new columns called “Date Created Conversion” and “Years.” The purpose of the Date Created Conversion was to convert the date format in “deadline” column into the short date format. The “Years” column is derivation of the “Date Created Conversion,” printing only the year into cell.
+To begin our analysis of the category "theatre" and subcategory “plays”, we created two new columns called Date Created Conversion and Years. The purpose of the Date Created Conversion was to convert the date format in “deadline” column into the short date format. The Years column is derivation of the Date Created Conversion column, printing only the year into the cell.
     
 ### Theater Outcomes by Launch Date Analysis
 We will be analyzing how the number of successful, failed, and canceled outcomes, located on the y-axis, are related to the month the donation campaign began, located on the x-axis, for the observations of the category “theater”. 
-The most successful donation campaigns for “theater” are at the end of Spring. By the end of the year the success wanes and the number of “successful” and “failed” outcomes match. As we can see in the graph, from March to April the number of successful outcomes is increasing quickly and maxes out at approximately 70% more “successful” campaigns than “failed” campaigns in May. Over the second half the year, success slowly drops equal with the failed outcome and to its lowest point all year in December. There are only a few “canceled” campaigns each month, if not 0, throughout the year.
+The most successful donation campaigns for “theater” are at the end of Spring. By the end of the year the success wanes and the number of successful and failed outcomes match. As we can see in the graph, from March to April the number of successful outcomes is increasing quickly and maxes out at approximately 70% more successful campaigns than failed campaigns in May. Over the second half the year, success slowly drops equal with the failed outcome and to its lowest point all year in December. There are only a few canceled campaigns each month, if not 0, throughout the year.
 
 - Challenges
 One challenge encountered was formatting the “deadline” and “launch_at” column dates. In order to display a short date we had to convert this date to new units: =(((J526/60)/60)/24) +DATE(1970,1,1)
